@@ -10,9 +10,11 @@
   </head>
   <body class="bg-light text-dark">
     <%- include('../partials/nav') %>
-    <h1 class="text-center">My Reviews</h1>
+    <br />
 
-    <a class="text-center" href="/reviews/new">Add a review</a>
+    <h1 class="text-center">All Reviews</h1>
+    <br />
+
     <div class="container">
       <div class="row">
         <% reviews.forEach(review => { %>
@@ -28,7 +30,8 @@
             <div class="card-body">
               <h5 class="card-title text-center">
                 <a class="text-dark" href="/reviews/<%= review._id %>"
-                  ><%= review.gameName %></a
+                  ><%= review.gameName %> Review By <%= review.owner.username
+                  %></a
                 >
               </h5>
             </div>
