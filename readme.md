@@ -6,7 +6,7 @@ Gamelist is a web application for gamers to Track, review, share and view their 
 
 ## 📸 Screenshot / Logo
 
-![App Screenshot](https://imgur.com/9FsSWct)
+![App Screenshot](https://i.imgur.com/9FsSWct.png)
 
 ---
 
